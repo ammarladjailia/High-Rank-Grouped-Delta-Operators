@@ -1,0 +1,10 @@
+cat << 'EOF' > .gitignore
+    __pycache__/
+    *.py[cod]
+    *.pt
+    *.pth
+    checkpoints/
+    outputs/
+    .pytest_cache/
+    .DS_Store
+    EOF
