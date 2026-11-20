@@ -1,0 +1,7 @@
+model,params,train_time,memory_mb,macs_m,latency_b1_ms,latency_b128_ms
+Vanilla ResNet,676682,38 min,412,288,1.09,4.52
+Param-matched ResNet-8,941290,42 min,428,434,2.18,9.45
+SE-Net,825418,41 min,438,306,1.25,5.12
+CA-Net,830154,42 min,440,308,1.38,5.64
+DDL (Rank-1),1088426,43 min,442,310,1.82,6.85
+HRG-Delta (r=4, G=4),941162,45 min,445,328,5.45,75.08

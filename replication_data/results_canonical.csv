@@ -1,0 +1,91 @@
+configuration,seed,test_accuracy,parameter_count,config_path,result_path,git_commit
+Vanilla ResNet,42,92.75,676682,configs/cifar10_vanilla.yaml,outputs/cifar10_vanilla/seed_42/result.json,N/A
+Vanilla ResNet,123,92.51,676682,configs/cifar10_vanilla.yaml,outputs/cifar10_vanilla/seed_123/result.json,N/A
+Vanilla ResNet,456,92.36,676682,configs/cifar10_vanilla.yaml,outputs/cifar10_vanilla/seed_456/result.json,N/A
+Vanilla ResNet,789,92.4,676682,configs/cifar10_vanilla.yaml,outputs/cifar10_vanilla/seed_789/result.json,N/A
+Vanilla ResNet,2026,92.34,676682,configs/cifar10_vanilla.yaml,outputs/cifar10_vanilla/seed_2026/result.json,N/A
+SE-Net,42,93.0,TBD,configs/cifar10_senet.yaml,outputs/cifar10_senet/seed_42/result.json,N/A
+SE-Net,123,92.87,TBD,configs/cifar10_senet.yaml,outputs/cifar10_senet/seed_123/result.json,N/A
+SE-Net,456,92.83,TBD,configs/cifar10_senet.yaml,outputs/cifar10_senet/seed_456/result.json,N/A
+SE-Net,789,93.15,TBD,configs/cifar10_senet.yaml,outputs/cifar10_senet/seed_789/result.json,N/A
+SE-Net,2026,92.65,TBD,configs/cifar10_senet.yaml,outputs/cifar10_senet/seed_2026/result.json,N/A
+CA-Net,42,93.41,TBD,configs/cifar10_canet.yaml,outputs/cifar10_canet/seed_42/result.json,N/A
+CA-Net,123,93.23,TBD,configs/cifar10_canet.yaml,outputs/cifar10_canet/seed_123/result.json,N/A
+CA-Net,456,93.26,TBD,configs/cifar10_canet.yaml,outputs/cifar10_canet/seed_456/result.json,N/A
+CA-Net,789,93.54,TBD,configs/cifar10_canet.yaml,outputs/cifar10_canet/seed_789/result.json,N/A
+CA-Net,2026,93.55,TBD,configs/cifar10_canet.yaml,outputs/cifar10_canet/seed_2026/result.json,N/A
+Residual overparameterized control,42,94.0,1415498,configs/cifar10_residual_overparameterized.yaml,outputs/cifar10_residual_overparameterized/seed_42/result.json,N/A
+Residual overparameterized control,123,93.94,1415498,configs/cifar10_residual_overparameterized.yaml,outputs/cifar10_residual_overparameterized/seed_123/result.json,N/A
+Residual overparameterized control,456,94.19,1415498,configs/cifar10_residual_overparameterized.yaml,outputs/cifar10_residual_overparameterized/seed_456/result.json,N/A
+Residual overparameterized control,789,94.17,1415498,configs/cifar10_residual_overparameterized.yaml,outputs/cifar10_residual_overparameterized/seed_789/result.json,N/A
+Residual overparameterized control,2026,94.31,1415498,configs/cifar10_residual_overparameterized.yaml,outputs/cifar10_residual_overparameterized/seed_2026/result.json,N/A
+Residual adapter parameter-matched,42,93.49,941538,configs/cifar10_residual_adapter_parameter_matched.yaml,outputs/cifar10_residual_adapter_parameter_matched/seed_42/result.json,N/A
+Residual adapter parameter-matched,123,93.35,941538,configs/cifar10_residual_adapter_parameter_matched.yaml,outputs/cifar10_residual_adapter_parameter_matched/seed_123/result.json,N/A
+Residual adapter parameter-matched,456,93.65,941538,configs/cifar10_residual_adapter_parameter_matched.yaml,outputs/cifar10_residual_adapter_parameter_matched/seed_456/result.json,N/A
+Residual adapter parameter-matched,789,93.63,941538,configs/cifar10_residual_adapter_parameter_matched.yaml,outputs/cifar10_residual_adapter_parameter_matched/seed_789/result.json,N/A
+Residual adapter parameter-matched,2026,93.32,941538,configs/cifar10_residual_adapter_parameter_matched.yaml,outputs/cifar10_residual_adapter_parameter_matched/seed_2026/result.json,N/A
+HRG-Delta full dynamic,42,93.74,941194,configs/cifar10_full_dynamic.yaml,outputs/cifar10_full_dynamic/seed_42/result.json,N/A
+HRG-Delta full dynamic,123,93.6,941194,configs/cifar10_full_dynamic.yaml,outputs/cifar10_full_dynamic/seed_123/result.json,N/A
+HRG-Delta full dynamic,456,93.7,941194,configs/cifar10_full_dynamic.yaml,outputs/cifar10_full_dynamic/seed_456/result.json,N/A
+HRG-Delta full dynamic,789,93.49,941194,configs/cifar10_full_dynamic.yaml,outputs/cifar10_full_dynamic/seed_789/result.json,N/A
+HRG-Delta full dynamic,2026,93.73,941194,configs/cifar10_full_dynamic.yaml,outputs/cifar10_full_dynamic/seed_2026/result.json,N/A
+Static HRG,42,92.89,941194,configs/cifar10_static.yaml,outputs/cifar10_static/seed_42/result.json,N/A
+Static HRG,123,92.85,941194,configs/cifar10_static.yaml,outputs/cifar10_static/seed_123/result.json,N/A
+Static HRG,456,92.88,941194,configs/cifar10_static.yaml,outputs/cifar10_static/seed_456/result.json,N/A
+Static HRG,789,92.87,941194,configs/cifar10_static.yaml,outputs/cifar10_static/seed_789/result.json,N/A
+Static HRG,2026,92.86,941194,configs/cifar10_static.yaml,outputs/cifar10_static/seed_2026/result.json,N/A
+Dynamic-beta uniquement,42,93.77,941194,configs/cifar10_dynamic_beta.yaml,outputs/cifar10_dynamic_beta/seed_42/result.json,N/A
+Dynamic-beta uniquement,123,93.05,941194,configs/cifar10_dynamic_beta.yaml,outputs/cifar10_dynamic_beta/seed_123/result.json,N/A
+Dynamic-beta uniquement,456,93.38,941194,configs/cifar10_dynamic_beta.yaml,outputs/cifar10_dynamic_beta/seed_456/result.json,N/A
+Dynamic-beta uniquement,789,93.57,941194,configs/cifar10_dynamic_beta.yaml,outputs/cifar10_dynamic_beta/seed_789/result.json,N/A
+Dynamic-beta uniquement,2026,92.97,941194,configs/cifar10_dynamic_beta.yaml,outputs/cifar10_dynamic_beta/seed_2026/result.json,N/A
+Dynamic-Q uniquement,42,93.85,941194,configs/cifar10_dynamic_q.yaml,outputs/cifar10_dynamic_q/seed_42/result.json,N/A
+Dynamic-Q uniquement,123,93.59,941194,configs/cifar10_dynamic_q.yaml,outputs/cifar10_dynamic_q/seed_123/result.json,N/A
+Dynamic-Q uniquement,456,93.54,941194,configs/cifar10_dynamic_q.yaml,outputs/cifar10_dynamic_q/seed_456/result.json,N/A
+Dynamic-Q uniquement,789,93.5,941194,configs/cifar10_dynamic_q.yaml,outputs/cifar10_dynamic_q/seed_789/result.json,N/A
+Dynamic-Q uniquement,2026,93.73,941194,configs/cifar10_dynamic_q.yaml,outputs/cifar10_dynamic_q/seed_2026/result.json,N/A
+beta_max_1,42,93.58,941194,configs/cifar10_beta_01.yaml,outputs/cifar10_beta_01/seed_42/result.json,N/A
+beta_max_1,123,93.5,941194,configs/cifar10_beta_01.yaml,outputs/cifar10_beta_01/seed_123/result.json,N/A
+beta_max_1,456,93.63,941194,configs/cifar10_beta_01.yaml,outputs/cifar10_beta_01/seed_456/result.json,N/A
+beta_max_1,789,93.66,941194,configs/cifar10_beta_01.yaml,outputs/cifar10_beta_01/seed_789/result.json,N/A
+beta_max_1,2026,93.52,941194,configs/cifar10_beta_01.yaml,outputs/cifar10_beta_01/seed_2026/result.json,N/A
+beta_max_3,42,93.68,941194,configs/cifar10_beta_03.yaml,outputs/cifar10_beta_03/seed_42/result.json,N/A
+beta_max_3,123,94.1,941194,configs/cifar10_beta_03.yaml,outputs/cifar10_beta_03/seed_123/result.json,N/A
+beta_max_3,456,93.73,941194,configs/cifar10_beta_03.yaml,outputs/cifar10_beta_03/seed_456/result.json,N/A
+beta_max_3,789,93.62,941194,configs/cifar10_beta_03.yaml,outputs/cifar10_beta_03/seed_789/result.json,N/A
+beta_max_3,2026,93.95,941194,configs/cifar10_beta_03.yaml,outputs/cifar10_beta_03/seed_2026/result.json,N/A
+"G=4,r=1",42,93.2,TBD,configs/cifar10_rank_1.yaml,outputs/cifar10_rank_1/seed_42/result.json,N/A
+"G=4,r=1",123,93.42,TBD,configs/cifar10_rank_1.yaml,outputs/cifar10_rank_1/seed_123/result.json,N/A
+"G=4,r=1",456,93.73,TBD,configs/cifar10_rank_1.yaml,outputs/cifar10_rank_1/seed_456/result.json,N/A
+"G=4,r=1",789,93.45,TBD,configs/cifar10_rank_1.yaml,outputs/cifar10_rank_1/seed_789/result.json,N/A
+"G=4,r=1",2026,93.67,TBD,configs/cifar10_rank_1.yaml,outputs/cifar10_rank_1/seed_2026/result.json,N/A
+"G=4,r=2",42,93.55,TBD,configs/cifar10_rank_2.yaml,outputs/cifar10_rank_2/seed_42/result.json,N/A
+"G=4,r=2",123,93.31,TBD,configs/cifar10_rank_2.yaml,outputs/cifar10_rank_2/seed_123/result.json,N/A
+"G=4,r=2",456,93.48,TBD,configs/cifar10_rank_2.yaml,outputs/cifar10_rank_2/seed_456/result.json,N/A
+"G=4,r=2",789,93.67,TBD,configs/cifar10_rank_2.yaml,outputs/cifar10_rank_2/seed_789/result.json,N/A
+"G=4,r=2",2026,93.48,TBD,configs/cifar10_rank_2.yaml,outputs/cifar10_rank_2/seed_2026/result.json,N/A
+"G=4,r=8",42,93.52,TBD,configs/cifar10_rank_8.yaml,outputs/cifar10_rank_8/seed_42/result.json,N/A
+"G=4,r=8",123,93.89,TBD,configs/cifar10_rank_8.yaml,outputs/cifar10_rank_8/seed_123/result.json,N/A
+"G=4,r=8",456,93.61,TBD,configs/cifar10_rank_8.yaml,outputs/cifar10_rank_8/seed_456/result.json,N/A
+"G=4,r=8",789,93.94,TBD,configs/cifar10_rank_8.yaml,outputs/cifar10_rank_8/seed_789/result.json,N/A
+"G=4,r=8",2026,93.81,TBD,configs/cifar10_rank_8.yaml,outputs/cifar10_rank_8/seed_2026/result.json,N/A
+"G=1,r=16",42,93.9,TBD,configs/cifar10_rank_16.yaml,outputs/cifar10_rank_16/seed_42/result.json,N/A
+"G=1,r=16",123,93.8,TBD,configs/cifar10_rank_16.yaml,outputs/cifar10_rank_16/seed_123/result.json,N/A
+"G=1,r=16",456,93.81,TBD,configs/cifar10_rank_16.yaml,outputs/cifar10_rank_16/seed_456/result.json,N/A
+"G=1,r=16",789,94.01,TBD,configs/cifar10_rank_16.yaml,outputs/cifar10_rank_16/seed_789/result.json,N/A
+"G=1,r=16",2026,93.86,TBD,configs/cifar10_rank_16.yaml,outputs/cifar10_rank_16/seed_2026/result.json,N/A
+"G=1,r=4",42,93.66,TBD,configs/cifar10_group_1.yaml,outputs/cifar10_group_1/seed_42/result.json,N/A
+"G=1,r=4",123,93.98,TBD,configs/cifar10_group_1.yaml,outputs/cifar10_group_1/seed_123/result.json,N/A
+"G=1,r=4",456,93.63,TBD,configs/cifar10_group_1.yaml,outputs/cifar10_group_1/seed_456/result.json,N/A
+"G=1,r=4",789,93.71,TBD,configs/cifar10_group_1.yaml,outputs/cifar10_group_1/seed_789/result.json,N/A
+"G=1,r=4",2026,93.67,TBD,configs/cifar10_group_1.yaml,outputs/cifar10_group_1/seed_2026/result.json,N/A
+"G=2,r=4",42,93.83,TBD,configs/cifar10_group_2.yaml,outputs/cifar10_group_2/seed_42/result.json,N/A
+"G=2,r=4",123,93.63,TBD,configs/cifar10_group_2.yaml,outputs/cifar10_group_2/seed_123/result.json,N/A
+"G=2,r=4",456,93.69,TBD,configs/cifar10_group_2.yaml,outputs/cifar10_group_2/seed_456/result.json,N/A
+"G=2,r=4",789,93.75,TBD,configs/cifar10_group_2.yaml,outputs/cifar10_group_2/seed_789/result.json,N/A
+"G=2,r=4",2026,93.29,TBD,configs/cifar10_group_2.yaml,outputs/cifar10_group_2/seed_2026/result.json,N/A
+"G=8,r=2",42,94.01,TBD,configs/cifar10_group_8.yaml,outputs/cifar10_group_8/seed_42/result.json,N/A
+"G=8,r=2",123,93.55,TBD,configs/cifar10_group_8.yaml,outputs/cifar10_group_8/seed_123/result.json,N/A
+"G=8,r=2",456,93.55,TBD,configs/cifar10_group_8.yaml,outputs/cifar10_group_8/seed_456/result.json,N/A
+"G=8,r=2",789,94.01,TBD,configs/cifar10_group_8.yaml,outputs/cifar10_group_8/seed_789/result.json,N/A
+"G=8,r=2",2026,93.64,TBD,configs/cifar10_group_8.yaml,outputs/cifar10_group_8/seed_2026/result.json,N/A

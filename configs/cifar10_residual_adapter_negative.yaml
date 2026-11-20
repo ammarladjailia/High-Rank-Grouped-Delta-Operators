@@ -1,0 +1,19 @@
+base_config: cifar10_base.yaml
+
+experiment:
+  name: cifar10_residual_adapter_negative
+  output_dir: outputs/cifar10_residual_adapter_negative
+
+model:
+  backbone: ResidualAdapterParameterMatchedResNet
+  adapter_kwargs:
+    residual_scale: -1.0
+    hidden_dims:
+      stage1: 68
+      stage2: 82
+
+parameter_matching:
+  reference_model: cifar10_full_dynamic
+  target_trainable_params: 941194
+  actual_params: 941538
+  tolerance_percent: 1.0

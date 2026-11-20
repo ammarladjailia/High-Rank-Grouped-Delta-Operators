@@ -1,0 +1,19 @@
+base_config: cifar10_base.yaml
+
+experiment:
+  name: cifar10_ddl
+  output_dir: outputs/cifar10_ddl
+  seeds:
+    - 2026
+    - 42
+    - 123
+    - 456
+    - 789
+
+model:
+  groups: 1
+  rank: 1
+  dynamic_q: true
+  dynamic_beta: true
+  beta_max: 2.0
+  value_map_type: grouped_conv

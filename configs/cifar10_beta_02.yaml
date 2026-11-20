@@ -1,0 +1,10 @@
+base_config: cifar10_base.yaml
+
+experiment:
+  name: cifar10_beta_02
+  output_dir: outputs/cifar10_beta_02
+
+model:
+  beta_max: 2.0
+  dynamic_q: true
+  dynamic_beta: true
